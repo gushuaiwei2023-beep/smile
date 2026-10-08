@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160">
+  <line x1="0" y1="40" x2="240" y2="40" stroke="#111" stroke-width="4"/>
+  <line x1="120" y1="40" x2="120" y2="116" stroke="#111" stroke-width="4"/>
+  <g transform="translate(80 60)">
+    <polygon points="26,16 40,30 26,44" fill="none" stroke="#111" stroke-width="3"/>
+    <polygon points="54,16 40,30 54,44" fill="none" stroke="#111" stroke-width="3"/>
+    <line x1="40" y1="30" x2="40" y2="8" stroke="#111" stroke-width="3"/>
+    <line x1="28" y1="8" x2="52" y2="8" stroke="#111" stroke-width="3"/>
+  </g>
+  <polyline points="104,116 120,140 136,116" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="132" y="92" font-family="Arial" font-size="12">Valve type: TBD</text>
+  <text x="132" y="112" font-family="Arial" font-size="12">Terminal: null</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <line x1="60" y1="120" x2="60" y2="78" stroke="#111" stroke-width="4"/>
+  <line x1="42" y1="60" x2="0" y2="60" stroke="#111" stroke-width="4"/>
+  <polygon points="42,44 76,60 42,76" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="76" y1="44" x2="76" y2="76" stroke="#111" stroke-width="3"/>
+  <path d="M44 30 h8 l6 -10 l6 20 l6 -20 l6 20 l6 -10 h8" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="60" y1="44" x2="60" y2="30" stroke="#111" stroke-width="3"/>
+  <text x="64" y="106" font-family="Arial" font-size="10">P</text>
+  <text x="6" y="54" font-family="Arial" font-size="10">NFH</text>
+</svg>

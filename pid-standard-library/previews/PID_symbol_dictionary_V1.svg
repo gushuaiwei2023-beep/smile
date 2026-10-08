@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 16px; fill: #111; }
+    .title { font-size: 26px; font-weight: bold; }
+    .box { fill: #fff; stroke: #ccc; stroke-width: 1; }
+  </style>
+  <text class="title" x="40" y="48">PID Symbol Dictionary V1</text>
+  <g transform="translate(40 80)">
+    <rect class="box" width="280" height="110"/>
+    <text x="16" y="28">8字盲板 normally open</text>
+    <g transform="translate(78 45)">
+      <line x1="0" y1="30" x2="120" y2="30" stroke="#111" stroke-width="4"/>
+      <line x1="56" y1="24" x2="64" y2="24" stroke="#111" stroke-width="3"/>
+      <line x1="56" y1="36" x2="64" y2="36" stroke="#111" stroke-width="3"/>
+      <line x1="60" y1="24" x2="60" y2="16" stroke="#111" stroke-width="3"/>
+      <line x1="60" y1="36" x2="60" y2="44" stroke="#111" stroke-width="3"/>
+      <circle cx="60" cy="8" r="8" fill="#111"/>
+      <circle cx="60" cy="52" r="8" fill="none" stroke="#111" stroke-width="3"/>
+    </g>
+  </g>
+  <g transform="translate(360 80)">
+    <rect class="box" width="280" height="110"/>
+    <text x="16" y="28">8字盲板 normally closed</text>
+    <g transform="translate(78 45)">
+      <line x1="0" y1="30" x2="120" y2="30" stroke="#111" stroke-width="4"/>
+      <line x1="56" y1="24" x2="64" y2="24" stroke="#111" stroke-width="3"/>
+      <line x1="56" y1="36" x2="64" y2="36" stroke="#111" stroke-width="3"/>
+      <line x1="60" y1="24" x2="60" y2="16" stroke="#111" stroke-width="3"/>
+      <line x1="60" y1="36" x2="60" y2="44" stroke="#111" stroke-width="3"/>
+      <circle cx="60" cy="8" r="8" fill="none" stroke="#111" stroke-width="3"/>
+      <circle cx="60" cy="52" r="8" fill="#111"/>
+    </g>
+  </g>
+  <g transform="translate(680 80)">
+    <rect class="box" width="280" height="110"/>
+    <text x="16" y="28">Gate valve</text>
+    <line x1="70" y1="66" x2="210" y2="66" stroke="#111" stroke-width="4"/>
+    <polygon points="110,52 140,66 110,80" fill="none" stroke="#111" stroke-width="3"/>
+    <polygon points="170,52 140,66 170,80" fill="none" stroke="#111" stroke-width="3"/>
+    <line x1="140" y1="66" x2="140" y2="40" stroke="#111" stroke-width="3"/>
+    <line x1="126" y1="40" x2="154" y2="40" stroke="#111" stroke-width="3"/>
+  </g>
+  <g transform="translate(40 230)">
+    <rect class="box" width="280" height="130"/>
+    <text x="16" y="28">Relief valve</text>
+    <g transform="translate(80 28)">
+      <line x1="60" y1="92" x2="60" y2="62" stroke="#111" stroke-width="4"/>
+      <line x1="42" y1="44" x2="0" y2="44" stroke="#111" stroke-width="4"/>
+      <polygon points="42,28 76,44 42,60" fill="none" stroke="#111" stroke-width="3"/>
+      <line x1="76" y1="28" x2="76" y2="60" stroke="#111" stroke-width="3"/>
+      <path d="M44 14 h8 l6 -10 l6 20 l6 -20 l6 20 l6 -10 h8" fill="none" stroke="#111" stroke-width="3"/>
+      <line x1="60" y1="28" x2="60" y2="14" stroke="#111" stroke-width="3"/>
+    </g>
+  </g>
+  <g transform="translate(360 230)">
+    <rect class="box" width="280" height="130"/>
+    <text x="16" y="28">Welded cap / flange</text>
+    <line x1="40" y1="66" x2="128" y2="66" stroke="#111" stroke-width="4"/>
+    <path d="M128 50 Q150 66 128 82" fill="none" stroke="#111" stroke-width="3"/>
+    <line x1="160" y1="66" x2="250" y2="66" stroke="#111" stroke-width="4"/>
+    <line x1="198" y1="49" x2="198" y2="83" stroke="#111" stroke-width="3"/>
+    <line x1="212" y1="49" x2="212" y2="83" stroke="#111" stroke-width="3"/>
+  </g>
+  <g transform="translate(680 230)">
+    <rect class="box" width="280" height="130"/>
+    <text x="16" y="28">Check valve</text>
+    <line x1="70" y1="70" x2="210" y2="70" stroke="#111" stroke-width="4"/>
+    <polygon points="110,52 150,70 110,88" fill="none" stroke="#111" stroke-width="3"/>
+    <line x1="158" y1="52" x2="158" y2="88" stroke="#111" stroke-width="3"/>
+  </g>
+  <g transform="translate(40 400)">
+    <rect class="box" width="280" height="130"/>
+    <text x="16" y="28">Open service drain</text>
+    <line x1="140" y1="40" x2="140" y2="96" stroke="#111" stroke-width="4"/>
+    <polyline points="124,96 140,118 156,96" fill="none" stroke="#111" stroke-width="3"/>
+  </g>
+  <g transform="translate(360 400)">
+    <rect class="box" width="280" height="130"/>
+    <text x="16" y="28">Close service drain</text>
+    <line x1="140" y1="40" x2="140" y2="96" stroke="#111" stroke-width="4"/>
+    <polyline points="124,96 140,118 156,96" fill="none" stroke="#111" stroke-width="3"/>
+    <line x1="124" y1="72" x2="156" y2="104" stroke="#111" stroke-width="3"/>
+  </g>
+  <g transform="translate(680 400)">
+    <rect class="box" width="280" height="130"/>
+    <text x="16" y="28">Process pipeline / arrow</text>
+    <line x1="40" y1="70" x2="240" y2="70" stroke="#111" stroke-width="4"/>
+    <polygon points="214,58 240,70 214,82" fill="#111"/>
+  </g>
+</svg>

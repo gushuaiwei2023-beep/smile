@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" viewBox="0 0 820 520">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 14px; fill: #111; }
+    .pipe { stroke: #111; stroke-width: 4; fill: none; }
+    .thin { stroke: #111; stroke-width: 3; fill: none; }
+  </style>
+  <rect width="820" height="520" fill="#fff"/>
+  <text x="40" y="36" font-size="24">PSV 001A Process Branch</text>
+  <line class="pipe" x1="80" y1="420" x2="740" y2="420"/>
+  <path class="thin" d="M80 405 Q60 420 80 435"/>
+  <path class="thin" d="M740 405 Q760 420 740 435"/>
+  <text x="292" y="454">200-P-000104-B1TBA1-N</text>
+  <line class="pipe" x1="410" y1="420" x2="410" y2="95"/>
+  <text x="424" y="272">200-P-000105-B1TBA1-N</text>
+  <g transform="translate(350 318) rotate(-90 60 40)">
+    <line x1="0" y1="40" x2="120" y2="40" stroke="#111" stroke-width="4"/>
+    <line x1="56" y1="34" x2="64" y2="34" stroke="#111" stroke-width="3"/>
+    <line x1="56" y1="46" x2="64" y2="46" stroke="#111" stroke-width="3"/>
+    <line x1="60" y1="34" x2="60" y2="26" stroke="#111" stroke-width="3"/>
+    <line x1="60" y1="46" x2="60" y2="54" stroke="#111" stroke-width="3"/>
+    <circle cx="60" cy="18" r="8" fill="#111" stroke="#111" stroke-width="3"/>
+    <circle cx="60" cy="62" r="8" fill="none" stroke="#111" stroke-width="3"/>
+  </g>
+  <g transform="translate(350 214) rotate(-90 60 30)">
+    <line x1="0" y1="30" x2="120" y2="30" stroke="#111" stroke-width="4"/>
+    <polygon points="40,16 60,30 40,44" fill="none" stroke="#111" stroke-width="3"/>
+    <polygon points="80,16 60,30 80,44" fill="none" stroke="#111" stroke-width="3"/>
+    <line x1="60" y1="30" x2="60" y2="10" stroke="#111" stroke-width="3"/>
+    <line x1="48" y1="10" x2="72" y2="10" stroke="#111" stroke-width="3"/>
+  </g>
+  <line class="pipe" x1="410" y1="174" x2="500" y2="174"/>
+  <line class="pipe" x1="500" y1="174" x2="500" y2="255"/>
+  <g transform="translate(460 194)">
+    <polygon points="26,16 40,30 26,44" fill="none" stroke="#111" stroke-width="3"/>
+    <polygon points="54,16 40,30 54,44" fill="none" stroke="#111" stroke-width="3"/>
+    <line x1="40" y1="30" x2="40" y2="8" stroke="#111" stroke-width="3"/>
+    <line x1="28" y1="8" x2="52" y2="8" stroke="#111" stroke-width="3"/>
+  </g>
+  <polyline points="484,255 500,282 516,255" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="518" y="224">LP drain: TBD/null</text>
+  <line x1="410" y1="174" x2="410" y2="118" stroke="#111" stroke-width="4"/>
+  <polygon points="398,118 410,92 422,118" fill="#111"/>
+  <line class="pipe" x1="410" y1="95" x2="410" y2="78"/>
+  <polygon points="392,44 426,60 392,76" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="426" y1="44" x2="426" y2="76" stroke="#111" stroke-width="3"/>
+  <path d="M394 30 h8 l6 -10 l6 20 l6 -20 l6 20 l6 -10 h8" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="410" y1="44" x2="410" y2="30" stroke="#111" stroke-width="3"/>
+  <text x="440" y="48">PSV 001A</text>
+  <text x="440" y="66">6Q8</text>
+  <text x="440" y="84">SET@ 1.63MPag</text>
+  <line class="pipe" x1="392" y1="60" x2="215" y2="60"/>
+  <line class="pipe" x1="215" y1="60" x2="215" y2="18"/>
+  <polygon points="203,18 215,0 227,18" fill="#111"/>
+  <text x="72" y="50">200-NFH-000101-A3TBB2R-N</text>
+</svg>

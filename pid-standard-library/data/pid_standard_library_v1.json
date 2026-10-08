@@ -1,0 +1,147 @@
+{
+  "library_id": "pid_standard_library_v1",
+  "version": "1.0",
+  "source_note": "Constructed only from explicit requirements in CODEX_PROMPT_build_pid_standard_library_v1.md because no original pid_standard_library_v1.json attachment was provided.",
+  "symbols": [
+    {
+      "symbol_id": "SB-NO",
+      "name": "spectacle_blind_normally_open",
+      "file": "symbols/spectacle_blind_normally_open.svg",
+      "connector_short_line_required": true,
+      "connector_short_line_length_rule": "same_as_blind_body_short_line_length",
+      "normal_state": "open"
+    },
+    {
+      "symbol_id": "SB-NC",
+      "name": "spectacle_blind_normally_closed",
+      "file": "symbols/spectacle_blind_normally_closed.svg",
+      "connector_short_line_required": true,
+      "connector_short_line_length_rule": "same_as_blind_body_short_line_length",
+      "normal_state": "closed"
+    },
+    {
+      "symbol_id": "GATE-VALVE",
+      "name": "gate_valve",
+      "file": "symbols/gate_valve.svg"
+    },
+    {
+      "symbol_id": "RELIEF-VALVE",
+      "name": "relief_valve",
+      "file": "symbols/relief_valve.svg",
+      "inlet_port": "P",
+      "outlet_port": "NFH",
+      "orientation": "bottom_in_left_out_spring_up"
+    },
+    {
+      "symbol_id": "WELDED-CAP",
+      "name": "welded_cap",
+      "file": "symbols/welded_cap.svg"
+    },
+    {
+      "symbol_id": "FLANGE",
+      "name": "flange",
+      "file": "symbols/flange.svg"
+    },
+    {
+      "symbol_id": "CHECK-VALVE",
+      "name": "check_valve",
+      "file": "symbols/check_valve.svg"
+    },
+    {
+      "symbol_id": "OPEN-SERVICE-DRAIN",
+      "name": "open_service_drain",
+      "file": "symbols/open_service_drain.svg"
+    },
+    {
+      "symbol_id": "CLOSE-SERVICE-DRAIN",
+      "name": "close_service_drain",
+      "file": "symbols/close_service_drain.svg"
+    },
+    {
+      "symbol_id": "PROCESS-PIPELINE",
+      "name": "process_pipeline",
+      "file": "symbols/process_pipeline.svg"
+    },
+    {
+      "symbol_id": "FLOW-DIRECTION-ARROW",
+      "name": "flow_direction_arrow",
+      "file": "symbols/flow_direction_arrow.svg"
+    }
+  ],
+  "pipelines": [
+    {
+      "line_no": "200-P-000104-B1TBA1-N",
+      "role": "merge_header"
+    },
+    {
+      "line_no": "200-P-000105-B1TBA1-N",
+      "role": "vertical_pre_valve_process_branch"
+    },
+    {
+      "line_no": "200-NFH-000101-A3TBB2R-N",
+      "role": "relief_outlet"
+    }
+  ],
+  "modules": [
+    {
+      "module_id": "low_point_drain_module",
+      "file": "modules/low_point_drain_module.svg",
+      "position": "between_gate_valve_and_psv",
+      "components": {
+        "branch_exists": true,
+        "isolation_valve_exists": true,
+        "isolation_valve_type": "TBD",
+        "terminal_type": null,
+        "terminal_type_candidates": [
+          "open_service_drain",
+          "close_service_drain"
+        ],
+        "symbols": [
+          "PROCESS-PIPELINE",
+          "GATE-VALVE"
+        ]
+      }
+    },
+    {
+      "module_id": "psv_a_process_branch_module",
+      "file": "modules/psv_a_process_branch_module.svg",
+      "symbols": [
+        "WELDED-CAP",
+        "PROCESS-PIPELINE",
+        "SB-NO",
+        "GATE-VALVE",
+        "FLOW-DIRECTION-ARROW",
+        "RELIEF-VALVE"
+      ],
+      "ordered_items": [
+        "200-P-000104-B1TBA1-N",
+        "200-P-000105-B1TBA1-N",
+        "SB-NO",
+        "GATE-VALVE",
+        "low_point_drain_module",
+        "FLOW-DIRECTION-ARROW",
+        "PSV-001A",
+        "200-NFH-000101-A3TBB2R-N",
+        "FLOW-DIRECTION-ARROW"
+      ],
+      "template_values": [
+        {
+          "value": "PSV 001A",
+          "status": "template_value_not_project_confirmed"
+        },
+        {
+          "value": "6Q8",
+          "status": "template_value_not_project_confirmed"
+        },
+        {
+          "value": "SET@",
+          "status": "template_value_not_project_confirmed"
+        },
+        {
+          "value": "1.63MPag",
+          "status": "template_value_not_project_confirmed"
+        }
+      ]
+    }
+  ]
+}

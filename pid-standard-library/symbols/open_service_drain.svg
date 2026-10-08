@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="90" viewBox="0 0 80 90">
+  <line x1="40" y1="0" x2="40" y2="66" stroke="#111" stroke-width="4"/>
+  <polyline points="26,66 40,84 54,66" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="12" y="86" font-family="Arial" font-size="10">OPEN</text>
+</svg>
